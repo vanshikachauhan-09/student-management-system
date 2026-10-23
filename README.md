@@ -4,13 +4,8 @@ This is a C++ project that I made to manage student records through a console me
 ## Files
 | File | Purpose |
 |---|---|
-| `student_mgmt.cpp` | Main source code for the project |
-| `Makefile` | Commands to build, test and clean the program |
+| `task1.cpp` | Main source code for the project |
 | `students.db` | Sample student records |
-| `tests/session1.in` | Input for the first test session |
-| `tests/session2.in` | Input for testing data after restarting |
-| `tests/edge_cases.in` | Input for testing invalid entries |
-| `terminal_transcript.txt` | Saved terminal output from testing |
 
 ## How to Build and Run
 To compile the program, run:
@@ -105,10 +100,6 @@ The tests cover:
 
 The `Makefile` also includes a debug build using AddressSanitizer and UndefinedBehaviorSanitizer to help identify memory and runtime problems.
 
-## Sample Output
-The program displays student records in a table with their marks and grades. It also shows the total number of students and the class average.
-
-Add screenshots of your own program output here.
 
 ## Limitations
 - Names are limited to English letters and the supported punctuation.
